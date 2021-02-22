@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+positive case,Chrome 88.0.4324.104,,,2021-02-08 15:43:41,2021-02-08 15:44:01,20.373s,PASSED
+,,,,,,,
+Test Cases/guru/login/positif case/TC001 Guru berhasil login,Chrome 88.0.4324.104,Pastikan guru berhasil login,,2021-02-08 15:43:47,2021-02-08 15:44:01,14.672s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-02-08 15:43:48,2021-02-08 15:43:53,4.738s,PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-02-08 15:43:53,2021-02-08 15:43:53,0.214s,PASSED
+"navigateToUrl(""https://devsekolah-sim.pijarsekolah.id/app/login"")",Chrome 88.0.4324.104,,,2021-02-08 15:43:53,2021-02-08 15:43:58,4.986s,PASSED
+"setText(findTestObject(""guru/Page_Login SIM/input_Username_username""), ""jfaizshah708t@cryptstagram.com"")",Chrome 88.0.4324.104,,,2021-02-08 15:43:58,2021-02-08 15:44:00,2.491s,PASSED
+"setText(findTestObject(""guru/Page_Login SIM/input_Password_password""), ""111111"")",Chrome 88.0.4324.104,,,2021-02-08 15:44:00,2021-02-08 15:44:01,0.701s,PASSED
+"click(findTestObject(""guru/Page_Login SIM/button_Login""))",Chrome 88.0.4324.104,,,2021-02-08 15:44:01,2021-02-08 15:44:01,0.461s,PASSED

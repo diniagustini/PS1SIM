@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>siswa akses konten belajar</description>
+   <name>TC003 Konten belajar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdd7bf62-a7d9-4830-ad61-dd6a438ab437</testCaseGuid>
+</TestCaseEntity>

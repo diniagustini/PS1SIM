@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pastikan siswa berhasil login</description>
+   <name>TC001 Siswa berhasil login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2a32bdd-640e-4a8c-bf25-6c6ae5897714</testCaseGuid>
+</TestCaseEntity>

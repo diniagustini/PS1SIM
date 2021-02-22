@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positiv case" time="33.942" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Positiv case" tests="1" failures="0" errors="0" time="33.942" skips="0" timestamp="2021-02-09 11:58:22" hostname="906663 - 192.168.1.11" id="Test Suites/siswa/Positiv case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210209_115807\\siswa\\Positiv case\\20210209_115807"/>
+         <property name="logFiles" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210209_115807\\siswa\\Positiv case\\20210209_115807\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="906663 - 192.168.1.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="50a5d7ee793a5e10495a9d27f3f6b1bc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/siswa/login/positif case/TC001 Siswa berhasil login" time="13.236" classname="Test Cases/siswa/login/positif case/TC001 Siswa berhasil login" status="PASSED">
+         <system-out><![CDATA[2021-02-09 11:58:24 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-09 11:58:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-09 11:58:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-09 11:58:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-09 11:58:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-09 11:58:29 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-09 11:58:34 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-09 11:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-09 11:58:36 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-09 11:58:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-09 11:58:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-09 11:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-09 11:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-09 11:58:22 - [TEST_SUITE][PASSED] - Positiv case: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

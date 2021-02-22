@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="positive case" time="54.045" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="positive case" tests="1" failures="0" errors="0" time="54.045" skips="0" timestamp="2021-02-08 15:43:41" hostname="906663 - 192.168.43.84" id="Test Suites/guru/login/positive case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210208_154332\\guru\\login\\positive case\\20210208_154332"/>
+         <property name="logFiles" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210208_154332\\guru\\login\\positive case\\20210208_154332\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="906663 - 192.168.43.84"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.43.84"/>
+         <property name="sessionId" value="fd30552346c2ad1dd4ce37ae1fb1eb12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/guru/login/positif case/TC001 Guru berhasil login" time="14.672" classname="Test Cases/guru/login/positif case/TC001 Guru berhasil login" status="PASSED">
+         <system-out><![CDATA[2021-02-08 15:43:47 - [TEST_CASE][PASSED] - Test Cases/guru/login/positif case/TC001 Guru berhasil login: Test Cases/guru/login/positif case/TC001 Guru berhasil login
+
+2021-02-08 15:43:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-08 15:43:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-08 15:43:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-08 15:43:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-08 15:43:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-08 15:43:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-08 15:43:53 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-sim.pijarsekolah.id/app/login"): Navigate to 'https://devsekolah-sim.pijarsekolah.id/app/login' successfully
+
+2021-02-08 15:43:58 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-sim.pijarsekolah.id/app/login' successfully
+
+2021-02-08 15:43:58 - [TEST_STEP][PASSED] - setText(findTestObject("guru/Page_Login SIM/input_Username_username"), "jfaizshah708t@cryptstagram.com"): Text 'jfaizshah708t@cryptstagram.com' is set on object 'Object Repository/guru/Page_Login SIM/input_Username_username'
+
+2021-02-08 15:44:00 - [MESSAGE][PASSED] - Text 'jfaizshah708t@cryptstagram.com' is set on object 'Object Repository/guru/Page_Login SIM/input_Username_username'
+
+2021-02-08 15:44:00 - [TEST_STEP][PASSED] - setText(findTestObject("guru/Page_Login SIM/input_Password_password"), "111111"): Text '111111' is set on object 'Object Repository/guru/Page_Login SIM/input_Password_password'
+
+2021-02-08 15:44:01 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/guru/Page_Login SIM/input_Password_password'
+
+2021-02-08 15:44:01 - [TEST_STEP][PASSED] - click(findTestObject("guru/Page_Login SIM/button_Login")): Object: 'Object Repository/guru/Page_Login SIM/button_Login' is clicked on
+
+2021-02-08 15:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/guru/Page_Login SIM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-08 15:43:41 - [TEST_SUITE][PASSED] - positive case: Test Cases/guru/login/positif case/TC001 Guru berhasil login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

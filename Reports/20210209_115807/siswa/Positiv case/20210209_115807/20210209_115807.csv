@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positiv case,Chrome 88.0.4324.104,,,2021-02-09 11:58:22,2021-02-09 11:58:37,15.120s,PASSED
+,,,,,,,
+Test Cases/siswa/login/positif case/TC001 Siswa berhasil login,Chrome 88.0.4324.104,pastikan siswa berhasil login,,2021-02-09 11:58:24,2021-02-09 11:58:37,13.236s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-02-09 11:58:25,2021-02-09 11:58:29,4.248s,PASSED
+"navigateToUrl(""https://devsekolah-siswa.pijarsekolah.id/login"")",Chrome 88.0.4324.104,,,2021-02-09 11:58:29,2021-02-09 11:58:34,5.110s,PASSED
+"setText(findTestObject(""Object Repository/siswa/Page_Login Siswa/input_Username_username""), ""111111"")",Chrome 88.0.4324.104,,,2021-02-09 11:58:34,2021-02-09 11:58:36,1.405s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/siswa/Page_Login Siswa/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 88.0.4324.104,,,2021-02-09 11:58:36,2021-02-09 11:58:37,0.989s,PASSED
+"click(findTestObject(""Object Repository/siswa/Page_Login Siswa/button_Login""))",Chrome 88.0.4324.104,,,2021-02-09 11:58:37,2021-02-09 11:58:37,0.667s,PASSED

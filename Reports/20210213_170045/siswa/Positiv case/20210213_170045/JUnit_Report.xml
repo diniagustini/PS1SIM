@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positiv case" time="158.603" tests="6" failures="0" skips="0" errors="0">
+   <testsuite name="Positiv case" tests="6" failures="0" errors="0" time="158.603" skips="0" timestamp="2021-02-13 17:00:50" hostname="906663 - 192.168.0.100" id="Test Suites/siswa/Positiv case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210213_170045\\siswa\\Positiv case\\20210213_170045"/>
+         <property name="logFiles" value="C:\\Users\\906663\\Katalon Studio\\My First Web UI Project\\Reports\\20210213_170045\\siswa\\Positiv case\\20210213_170045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="906663 - 192.168.0.100"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="5c57a1ee0a4f4bedd9185e3b6609c68c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/siswa/login/positif case/TC001 Siswa berhasil login" time="9.805" classname="Test Cases/siswa/login/positif case/TC001 Siswa berhasil login" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:00:52 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:00:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:00:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:00:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:00:56 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:01:00 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:01:01 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:01:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:01:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/siswa/login/positif case/TC 002 siswa ubah password" time="52.401" classname="Test Cases/siswa/login/positif case/TC 002 siswa ubah password" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:01:02 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC 002 siswa ubah password: Test Cases/siswa/login/positif case/TC 002 siswa ubah password
+
+2021-02-13 17:01:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("siswa/login/positif case/TC001 Siswa berhasil login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:01:03 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:01:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:01:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-13 17:01:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:01:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:01:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:01:06 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:01:43 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:01:43 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:01:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:01:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:01:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:01:44 - [TEST_STEP][PASSED] - click(findTestObject("siswa/ubah password/Page_Beranda  Pijar Sekolah/span_Data Siswa")): Object: 'Object Repository/siswa/ubah password/Page_Beranda  Pijar Sekolah/span_Data Siswa' is clicked on
+
+2021-02-13 17:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/ubah password/Page_Beranda  Pijar Sekolah/span_Data Siswa' is clicked on
+
+2021-02-13 17:01:48 - [TEST_STEP][PASSED] - click(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/Page_Ubah Password  Pijar Sekolah/span_Ubah Password"), STOP_ON_FAILURE): Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/Page_Ubah Password  Pijar Sekolah/span_Ubah Password' is clicked on
+
+2021-02-13 17:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/Page_Ubah Password  Pijar Sekolah/span_Ubah Password' is clicked on
+
+2021-02-13 17:01:49 - [TEST_STEP][PASSED] - setText(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Lama_form-control"), "123456"): Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Lama_form-control'
+
+2021-02-13 17:01:50 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Lama_form-control'
+
+2021-02-13 17:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Baru_form-control"), "123456"): Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Baru_form-control'
+
+2021-02-13 17:01:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Password Baru_form-control'
+
+2021-02-13 17:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Konfirmasi Password Baru_form-control"), "123456"): Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Konfirmasi Password Baru_form-control'
+
+2021-02-13 17:01:52 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/password lama baru dan konfirmasi password/Page_Ubah Password  Pijar Sekolah/input_Konfirmasi Password Baru_form-control'
+
+2021-02-13 17:01:52 - [TEST_STEP][PASSED] - click(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/button_Ubah Password")): Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/button_Ubah Password' is clicked on
+
+2021-02-13 17:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/button_Ubah Password' is clicked on
+
+2021-02-13 17:01:52 - [TEST_STEP][PASSED] - click(findTestObject("siswa/ubah password/Page_Ubah Password  Pijar Sekolah/a_Ok")): Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/a_Ok' is clicked on
+
+2021-02-13 17:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/ubah password/Page_Ubah Password  Pijar Sekolah/a_Ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/siswa/login/positif case/New Folder/TC003 Konten belajar" time="19.901" classname="Test Cases/siswa/login/positif case/New Folder/TC003 Konten belajar" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:01:54 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/New Folder/TC003 Konten belajar: Test Cases/siswa/login/positif case/New Folder/TC003 Konten belajar
+
+2021-02-13 17:01:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("siswa/login/positif case/TC001 Siswa berhasil login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:01:55 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:01:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:01:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-13 17:01:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:01:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:01:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:01:58 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:02 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:03 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:02:03 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Konten Belajar/Page_Beranda  Pijar Sekolah/span_Konten Belajar")): Object: 'Object Repository/siswa/Konten Belajar/Page_Beranda  Pijar Sekolah/span_Konten Belajar' is clicked on
+
+2021-02-13 17:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Konten Belajar/Page_Beranda  Pijar Sekolah/span_Konten Belajar' is clicked on
+
+2021-02-13 17:02:08 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Buku Digital")): Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Buku Digital' is clicked on
+
+2021-02-13 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Buku Digital' is clicked on
+
+2021-02-13 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Konten Interaktif")): Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Konten Interaktif' is clicked on
+
+2021-02-13 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Konten Interaktif' is clicked on
+
+2021-02-13 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Lab Digital")): Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Lab Digital' is clicked on
+
+2021-02-13 17:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Lab Digital' is clicked on
+
+2021-02-13 17:02:13 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Video")): Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Video' is clicked on
+
+2021-02-13 17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Konten Belajar/Page_Konten Belajar  Pijar Sekolah/a_Video' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/siswa/login/positif case/New Folder/TC 004 Menu nilai" time="23.725" classname="Test Cases/siswa/login/positif case/New Folder/TC 004 Menu nilai" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:02:14 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/New Folder/TC 004 Menu nilai: Test Cases/siswa/login/positif case/New Folder/TC 004 Menu nilai
+
+2021-02-13 17:02:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("siswa/login/positif case/TC001 Siswa berhasil login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:02:15 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:02:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:02:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-13 17:02:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:02:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:02:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:02:18 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:21 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:21 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:02:22 - [TEST_STEP][PASSED] - click(findTestObject("siswa/nilai/Page_Beranda  Pijar Sekolah/span_Nilai")): Object: 'Object Repository/siswa/nilai/Page_Beranda  Pijar Sekolah/span_Nilai' is clicked on
+
+2021-02-13 17:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/nilai/Page_Beranda  Pijar Sekolah/span_Nilai' is clicked on
+
+2021-02-13 17:02:26 - [TEST_STEP][PASSED] - click(findTestObject("siswa/nilai/Page_Nilai Ujian  Pijar Sekolah/span_Nilai Ujian")): Object: 'Object Repository/siswa/nilai/Page_Nilai Ujian  Pijar Sekolah/span_Nilai Ujian' is clicked on
+
+2021-02-13 17:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/nilai/Page_Nilai Ujian  Pijar Sekolah/span_Nilai Ujian' is clicked on
+
+2021-02-13 17:02:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-02-13 17:02:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-02-13 17:02:32 - [TEST_STEP][PASSED] - click(findTestObject("siswa/nilai/Page_Nilai Tugas  Pijar Sekolah/span_Nilai Tugas")): Object: 'Object Repository/siswa/nilai/Page_Nilai Tugas  Pijar Sekolah/span_Nilai Tugas' is clicked on
+
+2021-02-13 17:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/nilai/Page_Nilai Tugas  Pijar Sekolah/span_Nilai Tugas' is clicked on
+
+2021-02-13 17:02:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-02-13 17:02:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-02-13 17:02:37 - [TEST_STEP][PASSED] - click(findTestObject("siswa/nilai/Page_Nilai Asesmen Kompetensi Minimum  Pijar Sekolah/span_Nilai AKM")): Object: 'Object Repository/siswa/nilai/Page_Nilai Asesmen Kompetensi Minimum  Pijar Sekolah/span_Nilai AKM' is clicked on
+
+2021-02-13 17:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/nilai/Page_Nilai Asesmen Kompetensi Minimum  Pijar Sekolah/span_Nilai AKM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/siswa/login/positif case/New Folder/TC 005 siswa akses menu jadwal" time="20.918" classname="Test Cases/siswa/login/positif case/New Folder/TC 005 siswa akses menu jadwal" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:02:38 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/New Folder/TC 005 siswa akses menu jadwal: Test Cases/siswa/login/positif case/New Folder/TC 005 siswa akses menu jadwal
+
+2021-02-13 17:02:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("siswa/login/positif case/TC001 Siswa berhasil login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:02:39 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:02:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:02:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-13 17:02:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:02:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:02:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:02:46 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:50 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:51 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:02:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:02:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:02:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-13 17:02:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-13 17:02:52 - [TEST_STEP][PASSED] - click(findTestObject("siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal")): Object: 'Object Repository/siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal' is clicked on
+
+2021-02-13 17:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal' is clicked on
+
+2021-02-13 17:02:57 - [TEST_STEP][PASSED] - click(findTestObject("siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal Ujian")): Object: 'Object Repository/siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal Ujian' is clicked on
+
+2021-02-13 17:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/jadwal/Page_Beranda  Pijar Sekolah/span_Jadwal Ujian' is clicked on
+
+2021-02-13 17:02:57 - [TEST_STEP][PASSED] - click(findTestObject("siswa/jadwal/Page_Jadwal Ujian  Pijar Sekolah/Page_Jadwal Ujian  Pijar Sekolah/span_Februari 2021")): Object: 'Object Repository/siswa/jadwal/Page_Jadwal Ujian  Pijar Sekolah/Page_Jadwal Ujian  Pijar Sekolah/span_Februari 2021' is clicked on
+
+2021-02-13 17:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/jadwal/Page_Jadwal Ujian  Pijar Sekolah/Page_Jadwal Ujian  Pijar Sekolah/span_Februari 2021' is clicked on
+
+2021-02-13 17:02:58 - [TEST_STEP][PASSED] - click(findTestObject("siswa/jadwal/Page_Jadwal Pelajaran  Pijar Sekolah/span_Jadwal Pelajaran")): Object: 'Object Repository/siswa/jadwal/Page_Jadwal Pelajaran  Pijar Sekolah/span_Jadwal Pelajaran' is clicked on
+
+2021-02-13 17:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/jadwal/Page_Jadwal Pelajaran  Pijar Sekolah/span_Jadwal Pelajaran' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/siswa/login/positif case/New Folder/TC006 pengumuman" time="28.757" classname="Test Cases/siswa/login/positif case/New Folder/TC006 pengumuman" status="PASSED">
+         <system-out><![CDATA[2021-02-13 17:02:59 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/New Folder/TC006 pengumuman: Test Cases/siswa/login/positif case/New Folder/TC006 pengumuman
+
+2021-02-13 17:03:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("siswa/login/positif case/TC001 Siswa berhasil login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:03:00 - [TEST_CASE][PASSED] - Test Cases/siswa/login/positif case/TC001 Siswa berhasil login: Test Cases/siswa/login/positif case/TC001 Siswa berhasil login
+
+2021-02-13 17:03:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-13 17:03:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-13 17:03:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-13 17:03:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-13 17:03:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-13 17:03:03 - [TEST_STEP][PASSED] - navigateToUrl("https://devsekolah-siswa.pijarsekolah.id/login"): Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:03:08 - [MESSAGE][PASSED] - Navigate to 'https://devsekolah-siswa.pijarsekolah.id/login' successfully
+
+2021-02-13 17:03:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Username_username"), "111111"): Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:03:09 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/siswa/Page_Login Siswa/input_Username_username'
+
+2021-02-13 17:03:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/siswa/Page_Login Siswa/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:03:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/siswa/Page_Login Siswa/input_Password_password'
+
+2021-02-13 17:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/siswa/Page_Login Siswa/button_Login")): Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Page_Login Siswa/button_Login' is clicked on
+
+2021-02-13 17:03:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/siswa/login/positif case/TC001 Siswa berhasil login' successfully
+
+2021-02-13 17:03:10 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/span_Pengumuman")): Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/span_Pengumuman' is clicked on
+
+2021-02-13 17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/span_Pengumuman' is clicked on
+
+2021-02-13 17:03:14 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Detail")): Object: 'Object Repository/siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Detail' is clicked on
+
+2021-02-13 17:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Detail' is clicked on
+
+2021-02-13 17:03:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-02-13 17:03:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-02-13 17:03:26 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/svg_Keluar_rounded-top")): Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/svg_Keluar_rounded-top' is clicked on
+
+2021-02-13 17:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/svg_Keluar_rounded-top' is clicked on
+
+2021-02-13 17:03:27 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/Page_Detail Pengumuman  Pijar Sekolah/p_Detail Pengumuman")): Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/Page_Detail Pengumuman  Pijar Sekolah/p_Detail Pengumuman' is clicked on
+
+2021-02-13 17:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Pengumuman/Page_Pengumuman  Pijar Sekolah/Page_Detail Pengumuman  Pijar Sekolah/p_Detail Pengumuman' is clicked on
+
+2021-02-13 17:03:27 - [TEST_STEP][PASSED] - click(findTestObject("siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Kembali")): Object: 'Object Repository/siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Kembali' is clicked on
+
+2021-02-13 17:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/siswa/Pengumuman/Page_Detail Pengumuman  Pijar Sekolah/a_Kembali' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-13 17:00:50 - [TEST_SUITE][PASSED] - Positiv case: Test Cases/siswa/login/positif case/New Folder/TC006 pengumuman]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
